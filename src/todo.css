@@ -1,0 +1,80 @@
+.img-div {
+  background-image: url(../src/Asset/pexels-mikhail-nilov-7828705.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set a minimum height of the viewport height */
+}
+
+#main-div {
+  width: 50%;
+  height: auto;
+  padding: 35px;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff94;
+  box-sizing: border-box;
+}
+
+#h1-div {
+  font-family: serif;
+}
+
+#main-div #todo-add {
+  border: none;
+  border-radius: 5px;
+  width: 50%; /* Adjust the width as per your preference */
+  padding: 5px 12px; /* Adjust padding for a smaller box */
+  outline: none;
+  margin-bottom: 8px; /* Add some spacing below the input */
+}
+
+#main-div ul {
+  list-style-type: disc;
+  font-weight: bold;
+  margin-top: 8px;
+  width: 100%;
+}
+
+ul li {
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: blanchedalmond;
+  padding: 8px 35px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 8px; /* Add some spacing between list items */
+}
+
+ul li input {
+  margin-right: 10px;
+}
+
+ul li button {
+  margin-left: auto;
+  padding: 4px 8px; /* Adjust padding for a smaller button */
+}
+
+@media (max-width: 768px) {
+  #main-div {
+    width: 90%;
+    padding: 15px;
+  }
+
+  #main-div #todo-add {
+    width: 90%;
+  }
+
+  ul li {
+    width: 100%;
+    padding: 8px;
+  }
+}
