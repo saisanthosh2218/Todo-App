@@ -1,3 +1,69 @@
+# Todo App
+
+Welcome to the Todo App! This is a simple web-based application built with React.js that allows users to manage their tasks effectively.
+
+## Features
+
+- **Add Todos:** Easily add new tasks to your todo list.
+- **Mark as Complete:** Check off completed tasks with a checkbox, with automatic strikethrough for clarity.
+- **Delete Todos:** Remove tasks from your list when they are no longer needed.
+- **Responsive Design:** Access the app seamlessly across desktop, tablet, and mobile devices.
+
+## Demo
+
+You can access the live demo of the Todo App [Here](https://stunning-todoapp-3bb93f.netlify.app/).
+
+## Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript and React.js
+
+## Installation
+
+This project is already deployed using Netlify. You can access the live website without any installation. If you want to run the project locally:
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/YourUsername/Todo-App.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Todo-App
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your web browser and navigate to `http://localhost:3000` to view the app.
+
+## Usage
+
+- **Add Todos:** Enter the task you want to add in the input field and press Enter or click the Add button.
+- **Mark as Complete:** Click on the checkbox next to each task to mark it as complete. Completed tasks will be displayed with a strikethrough.
+- **Delete Todos:** Click on the delete button next to each task to remove it from the list.
+- **Responsive Design:** The app is designed to adapt to different screen sizes, ensuring optimal user experience across devices.
+
+## Contributing
+
+Contributions are not currently accepted as this is a personal project. However, feel free to fork the repository and customize the project according to your needs.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
